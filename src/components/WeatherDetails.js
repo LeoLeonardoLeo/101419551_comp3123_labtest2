@@ -51,12 +51,13 @@ export default function WeatherDetails() {
        <div>
             <p>Temperature: {fixTemp.toFixed(2)} degrees</p>
             <p>Humidity: {data.main.humidity}%</p>
+            <p>Wind: {data.wind.speed} m/s</p>
             <p>Weather: {data.weather[0].description}</p>
             <img
             src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
             />
-            <p>{data.windy}</p>
             
+
 
     
 
