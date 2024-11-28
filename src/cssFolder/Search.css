@@ -1,0 +1,11 @@
+
+/* Search Section */
+.search {
+  background-color: rgba(211, 211, 211, 0.8); /* Slight transparency for a soft look */
+  padding: 25px 40px;
+  border: 1px solid #888;  /* Subtle border color */
+  border-radius: 8px;  /* Slightly more rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+  max-width: 500px;  /* Restrict the width to make it look cleaner */
+  margin: 20px;
+}
